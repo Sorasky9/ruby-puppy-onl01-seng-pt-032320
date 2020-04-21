@@ -6,8 +6,8 @@ class Dog
 @@all = []
 
 def initialize(name)
-  @name = name
-   self.save
+  @name = name #has the name of the dogs
+   self.save #saves the methods and class variables written below
 end
 
 def self.clear_all
